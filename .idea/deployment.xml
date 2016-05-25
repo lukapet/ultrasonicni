@@ -5,7 +5,7 @@
       <paths name="pi">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/pi/pywork" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/python" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
