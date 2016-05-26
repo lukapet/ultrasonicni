@@ -44,6 +44,7 @@ def prikazi(distance):
     s = str(distance).rjust(4)
 
     for digit in range(4):
+
         GPIO.output(digit, 0)  # Turn on the digit
 
         digitSegments = num[s[digit]]
